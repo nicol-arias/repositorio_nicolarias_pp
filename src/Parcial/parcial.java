@@ -16,7 +16,7 @@ public class parcial {
 
         // Fórmulas
         double sueldoBruto = horas * tarifa;
-        double descuento = sueldoBruto * 0.13;   // ONP 13%
+        double descuento = sueldoBruto * 0.15;   // ONP 13%
         double sueldoNeto = sueldoBruto - descuento;
 
         // Resultados (con 1 decimal como en el enunciado)
